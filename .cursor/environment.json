@@ -1,0 +1,4 @@
+{
+  "name": "revChatGPT",
+  "install": "python3 -m pip install --upgrade pip && python3 -m pip install -r requirements.txt && python3 -m pip install 'httpx[socks]<0.28' && python3 -m pip install -e . && python3 -m pip install build flake8 pre-commit"
+}
